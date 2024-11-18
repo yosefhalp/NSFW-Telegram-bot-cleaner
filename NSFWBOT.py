@@ -15,13 +15,13 @@ from telegram.helpers import escape_markdown
 # הגדרות בסיסיות
 DATABASE_PATH = "bot_settings.db"  # שם קובץ בסיס הנתונים
 TEMP_FOLDER = "temp"  # תיקייה לשמירת קבצים זמניים
-BOT_TOKEN = "7640798068:AAEyy7AfgaUgJ7ePhnPsBzG2P3vSN8PZTDk"  # הטוקן של הבוט שלך
+BOT_TOKEN = "YOUR TOKEN IS HERE"  # הטוקן של הבוט שלך
 detector = NudeDetector()  # אתחול המודל לזיהוי תוכן לא ראוי
 
 class ModBot:
     def __init__(self):
         # מזהה ה־super_admin (המזהה שלך בטלגרם)
-        self.super_admin_id = "732311117"
+        self.super_admin_id = "YOUR ID"
         self.init_database()  # אתחול בסיס הנתונים
         if not os.path.exists(TEMP_FOLDER):
             os.makedirs(TEMP_FOLDER)
