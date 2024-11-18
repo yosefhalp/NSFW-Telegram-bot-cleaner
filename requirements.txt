@@ -1,2 +1,6 @@
-python-telegram-bot
-nudenet
+
+python-telegram-bot>=20.0
+nudenet>=2.0
+pillow>=9.0
+datetime
+sqlite3
